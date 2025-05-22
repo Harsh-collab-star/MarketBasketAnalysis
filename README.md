@@ -2,6 +2,17 @@
 
 This project performs a comprehensive Market Basket Analysis using transactional data to identify patterns, generate insights, and visualize item associations. It uses the Apriori algorithm to find frequent itemsets and derive association rules, offering insights into customer purchase behavior.
 
+# Item Co-occurance heatmap Image
+
+![Market Basket Analysis](notebooks/outputs/visuals/heatmap.png)
+
+# Network graph
+![Market Basket Analysis](notebooks/outputs/visuals/network_graph.png)
+
+# Item frequency graph
+![Market Basket Analysis](notebooks/outputs/visuals/item_frequency.png)
+
+
 ## 📚 Project Coverage
 
 # Data Preprocessing
@@ -39,5 +50,6 @@ pip install -r requirements.txt
 ```
 
 # Run the Jupyter Notebook
-
+``` bash
 notebooks/analysis.ipynb
+```
