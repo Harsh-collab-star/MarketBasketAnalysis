@@ -12,7 +12,6 @@ This project performs a comprehensive Market Basket Analysis using transactional
 # Item frequency graph
 ![Market Basket Analysis](notebooks/outputs/visuals/item_frequency.png)
 
-
 ## 📚 Project Coverage
 
 # Data Preprocessing
@@ -47,9 +46,12 @@ This project performs a comprehensive Market Basket Analysis using transactional
 
 ``` bash
 pip install -r requirements.txt
+
 ```
 
 # Run the Jupyter Notebook
+
 ``` bash
 notebooks/analysis.ipynb
+
 ```
