@@ -2,14 +2,23 @@
 
 This project performs a comprehensive Market Basket Analysis using transactional data to identify patterns, generate insights, and visualize item associations. It uses the Apriori algorithm to find frequent itemsets and derive association rules, offering insights into customer purchase behavior.
 
-## 📚 In this project, I covered the following topics:
+## 📚 Project Coverage
 
-1. Cleaning and handling missing values	
-2. Feature selection and engineering	
-3. Ensuring data integrity and consistency	
-4. Summary statistics and insights	
-5. Identifying patterns, trends, and anomalies	
-6. Handling outliers and data transformations	
+# Data Preprocessing
+1. Cleaning and handling missing values
+
+2. Feature selection and engineering
+
+3. Ensuring data integrity and consistency
+
+# Exploratory Data Analysis (EDA)
+4. Summary statistics and insights
+
+5. Identifying patterns, trends, and anomalies
+
+6. Handling outliers and data transformations
+
+# Visualization & Insights
 7. Initial visual representation of key findings
 
 
@@ -26,10 +35,10 @@ This project performs a comprehensive Market Basket Analysis using transactional
 # Install Dependencies
 
 ''' bash
-pip install pandas matplotlib seaborn mlxtend jupyter
+pip install -r requirements.txt
 
 '''
 
 # Run the Jupyter Notebook
 
-jupyter notebook notebooks/market_basket_analysis.ipynb
+notebooks/analysis.ipynb
