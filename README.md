@@ -58,7 +58,7 @@ notebooks/analysis.ipynb
 
 # Market Basket Analysis: Retail Insights Visualization
 
-![Dashboard Preview](visualizations/dashboard.png)
+![Market Basket Analysis](notebooks/outputs/visuals/dashboard.png)
 
 ## 📊 Visualization Objectives
 1. **Identify** top-performing products
@@ -66,7 +66,7 @@ notebooks/analysis.ipynb
 3. **Recommend** strategic product placements
 4. **Optimize** promotional bundles
 
-## � Chart Selection Rationale (6/6 Marks)
+## � Chart Selection Rationale 
 
 | Visualization | Purpose | Insight Generated |
 |--------------|---------|-------------------|
@@ -75,7 +75,7 @@ notebooks/analysis.ipynb
 | Scatter Plot | Evaluate rule quality | Found 15 high-lift (>3) rules with >50% confidence |
 | Sunburst Chart | Show category composition | Revealed Beverages account for 42% of sales |
 
-## ✨ Aesthetics & Clarity (6/6 Marks)
+## ✨ Aesthetics & Clarity
 **Design Choices:**
 - **Color Scheme:** Sequential blues/reds for quantitative data, categorical for products
 - **Typography:** Open Sans font family for readability
@@ -88,7 +88,7 @@ notebooks/analysis.ipynb
 ✔️ Contrast ratio >4.5:1 for accessibility  
 ✔️ Mobile-optimized figure sizes  
 
-## 🖱️ Interactive Features (4/4 Marks)
+## 🖱️ Interactive Features 
 ### Available Interactions:
 1. **Hover Tooltips**
    - Product names & exact counts
@@ -106,16 +106,16 @@ notebooks/analysis.ipynb
 4. **Cross-Highlighting**
    - Select a product to see all associations
 
-*Try it:* [Interactive Dashboard](visualizations/interactive/dashboard.html)
+*Try it:* [Market Basket Analysis](notebooks/outputs/visuals/interactive_scatter.html)
 
-## 📖 Data Storytelling (4/4 Marks)
+## 📖 Data Storytelling 
 ### Key Narrative Points:
 1. **The 80/20 Rule**  
-   ![Top Products](visualizations/top_products.png)  
+   ![Market Basket Analysis](notebooks/outputs/visuals/20sales.png)  
    *"Just 15 products account for 82% of all transactions"*
 
 2. **Power Couples**  
-   ![Associations](visualizations/associations.png)  
+   ![Market Basket Analysis](notebooks/outputs/visuals/associations.png)  
    *"Customers who buy ground coffee are 4.2x more likely to add chocolate biscuits"*
 
 3. **Category Insights**  
